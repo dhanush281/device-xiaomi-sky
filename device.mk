@@ -518,5 +518,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libnl:64 \
     libwfdaac_vendor:64
+	
+PRODUCT_BOOT_JARS += \
+    WfdCommon
 
 
