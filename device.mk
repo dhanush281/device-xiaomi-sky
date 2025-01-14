@@ -118,7 +118,7 @@ PRODUCT_PACKAGES += \
     bootctrl.parrot.recovery
 
 PRODUCT_PACKAGES_DEBUG += \
-    bootctl
+    bootctl:64
 
 # Camera
 PRODUCT_COPY_FILES += \
@@ -321,6 +321,10 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
+	
+# QMI
+PRODUCT_PACKAGES += \
+    libvndfwk_detect_jni.qti_vendor:64
 
 # Rootdir
 PRODUCT_PACKAGES += \
@@ -512,8 +516,8 @@ PRODUCT_COPY_FILES += \
 
 # WiFi Display
 PRODUCT_PACKAGES += \
-    libnl \
-    libwfdaac_vendor
+    libnl:64 \
+    libwfdaac_vendor:64
 
 # Outer Tune
 PRODUCT_PACKAGES += \
