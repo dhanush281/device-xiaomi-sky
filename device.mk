@@ -257,6 +257,10 @@ PRODUCT_COPY_FILES += \
 # Lineage Health
 PRODUCT_PACKAGES += \
     vendor.lineage.health-service.default
+	
+# Media
+PRODUCT_PACKAGES += \
+	init.qti.media.sh
 
 # NFC
 PRODUCT_PACKAGES += \
