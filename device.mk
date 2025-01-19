@@ -515,4 +515,9 @@ PRODUCT_PACKAGES += \
     libnl \
     libwfdaac_vendor
 
+# Outer Tune
+PRODUCT_PACKAGES += \
+    OuterTune
 
+# BCR
+$(call inherit-product, vendor/bcr/bcr.mk)
