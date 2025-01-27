@@ -24,6 +24,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 # Project ID Quota.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 
+TARGET_SUPPORTS_OMX_SERVICE := false
+
 QCV_FAMILY_SKUS := parrot ravelin
 
 # AAPT
