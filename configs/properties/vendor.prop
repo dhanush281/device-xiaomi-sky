@@ -264,7 +264,6 @@ debug.hwui.target_cpu_time_percent=30
 
 # Media
 debug.c2.use_dmabufheaps=1
-debug.mdpcomp.logs=0
 debug.stagefright.c2inputsurface=-1
 
 # Misc
