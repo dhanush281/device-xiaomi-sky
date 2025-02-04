@@ -31,6 +31,9 @@ git clone https://github.com/PixelOS-AOSP/hardware_xiaomi.git hardware/xiaomi
 # Clone the agm repository
 echo "cloning agm repository..."
 rm -rf hardware/qcom-caf/sm8450/audio/agm && git clone https://github.com/dhanush281/agm.git hardware/qcom-caf/sm8450/audio/agm 
+
+rm -rf hardware/qcom-caf/sm8450/audio/pal && git clone https://github.com/dhanush281/arpal-lx hardware/qcom-caf/sm8450/audio/pal
+
 echo "Setup complete. Repositories are ready."
 
 echo "Completed, proceeding to lunch"
