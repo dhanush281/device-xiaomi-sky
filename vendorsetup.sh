@@ -32,7 +32,17 @@ git clone https://github.com/PixelOS-AOSP/hardware_xiaomi.git hardware/xiaomi
 echo "cloning agm repository..."
 rm -rf hardware/qcom-caf/sm8450/audio/agm && git clone https://github.com/dhanush281/agm.git hardware/qcom-caf/sm8450/audio/agm 
 
+echo "done"
+
 rm -rf hardware/qcom-caf/sm8450/audio/pal && git clone https://github.com/dhanush281/arpal-lx hardware/qcom-caf/sm8450/audio/pal
+
+echo "done"
+
+echo "cloning viper4fx repository..."
+
+git clone https://github.com/TogoFire/packages_apps_ViPER4AndroidFX packages/apps/ViPER4AndroidFX
+
+echo "done"
 
 echo "Setup complete. Repositories are ready."
 
