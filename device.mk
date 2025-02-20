@@ -528,4 +528,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     WfdCommon
 
-
+# Outer Tune
+PRODUCT_PACKAGES += \
+    OuterTune

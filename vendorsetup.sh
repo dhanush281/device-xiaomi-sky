@@ -1,3 +1,10 @@
+echo 'Outer tune Repo'
+
+# Outertune music app
+git clone https://github.com/dhanush281/packages_apps_extrapacks.git packages/apps/OuterTune
+
+echo "done"
+
 #!/bin/bash
 #Elixir Vendor Setup Script
 echo "Setting up repositories for Redmi 12 5G / Poco M6 Pro 5G (sky)..."
