@@ -28,6 +28,14 @@ echo "done"
 echo "cloning sm8450/audio/pal repository..."
 rm -rf hardware/qcom-caf/sm8450/audio/pal && git clone https://github.com/dhanush281/arpal-lx hardware/qcom-caf/sm8450/audio/pal
 
+echo "Removing duplicates..."
+
+rm -rf hardware/qcom-caf/sm8450/audio/graphservices/acdb
+rm -rf hardware/qcom-caf/sm8450/audio/graphservices/ar_osal
+rm -rf hardware/qcom-caf/sm8450/audio/graphservices/ar_util
+rm -rf hardware/qcom-caf/sm8450/audio/graphservices/gpr
+rm -rf hardware/qcom-caf/sm8450/audio/graphservices/gsl
+
 echo "done"
 
 echo "Setup complete. Repositories are ready."
