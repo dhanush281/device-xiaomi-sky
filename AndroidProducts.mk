@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/bliss_sky.mk
+    $(LOCAL_DIR)/pixelage_sky.mk
